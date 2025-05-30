@@ -124,11 +124,35 @@
 .hobbie__box__single:hover {
     transform: scale(1.2);
     border: none;
-    /* background: var(--bg-color-4); */
-    background-image: url("./../../img/gif-gym.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.bike:hover {
+    background-image: url("./../../img/sk-bike.gif");
+    background-position: center;
+    background-size: cover;
+}
+.soccer:hover {
+    background-image: url("./../../img/sk-soccer.gif");
+    background-position: center;
+    background-size: cover;
+}
+ .game:hover {
+    background-image: url("./../../img/sk-videogames.gif");
+    background-position: center;
+    background-size: cover;
+}
+.music:hover {
+    background-image: url("./../../img/sk-music.gif");
+    background-position: center;
+    background-size: cover;
+}
+.sports:hover {
+    background-image: url("./../../img/sk-gym.gif");
+    background-position: center;
+    background-size: cover;
 }
 
 .hobbie__box__single p:hover {

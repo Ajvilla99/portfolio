@@ -13,24 +13,22 @@
         rel="stylesheet">
     <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/home/home.css">
+    <link rel="stylesheet" href="assets/css/menu/menu.css">
     <link rel="stylesheet" href="assets/css/about/about.css">
     <link rel="stylesheet" href="assets/css/skills/skill.css">
-    <link rel="stylesheet" href="assets/css/footer/footer.css"> 
+    <link rel="stylesheet" href="assets/css/footer/footer.css">
     <link rel="stylesheet" href="assets/css/proyect/proyect.css">
     <link rel="stylesheet" href="assets/css/contact/contact.css">
-    <!-- 
-    <link rel="stylesheet" href="assets/css/menu/menu.css">
-    <link rel="stylesheet" href="assets/css/home/home.css">
-    -->
 
 </head>
 
 <body>
-    <header class="inicio" id="inicio">
+    <header class="index" id="index">
         <div class="menu__container">
 
             <div class="menu__top">
-                <p>Hola mucho gusto, bienvenido a mi portafolio | <b> contratame <i
+                <p>Hello, nice to meet you, welcome to my portfolio | <b> hire me <i
                             class='bx bxs-like bx-tada bx-flip-horizontal'></i></b></p>
             </div>
 
@@ -46,11 +44,11 @@
 
                 <div class="menu__mid">
                     <nav class="navbar">
-                        <a href="#home">inicio</a>
-                        <a href="#about-me">sobre mi</a>
+                        <a href="#home">home</a>
+                        <a href="#about-me">about me</a>
                         <a href="#skills">skills / hobbies</a>
-                        <a href="#proyect">proyectos</a>
-                        <a href="#contact">contactame</a>
+                        <a href="#proyect">proyects</a>
+                        <a href="#contact">contact me</a>
                     </nav>
                 </div>
 
@@ -87,20 +85,21 @@
             </div>
         </section>
 
+        <!-- about me section -->
         <section class="about" id="about-me">
             <div class="about__container">
                 <div class="about__img">
                     <img src="assets/img/foto-home.png" alt="imagen representativa">
                 </div>
                 <div class="about__text">
-                    <h2 class="title">sobre <span>mi</span></h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Dolor, labore sint iste eius ratione assumenda. Ea
-                        optio veniam officia, vitae vero tempora obcaecati maiores
-                        magnam earum laudantium nam quos quaerat necessitatibus natus
-                        non mollitia atque quisquam, quia corporis consequatur? Natus!
-                    </p>
+                    <h2 class="title">About <span>me</span></h2>
+                    <article>
+                        <p>I'm a front-end developer passionate about creating engaging, accessible, and functional
+                            digital
+                            experiences. I specialize in HTML, CSS, JavaScript, and frameworks like React, and I enjoy
+                            turning ideas into intuitive and modern interfaces. I'm always looking to learn new
+                            technologies, improve my skills, and work on projects that make a difference.</p>
+                    </article>
                 </div>
             </div>
         </section>
@@ -137,19 +136,19 @@
                 </div>
                 <div class="hobbies__box">
                     <div class="hobbie__box__single bike">
-                        <p>Bicicleta</p>
+                        <p>Bike</p>
                     </div>
 
                     <div class="hobbie__box__single soccer">
-                        <p>futbol</p>
+                        <p>Soccer</p>
                     </div>
 
                     <div class="hobbie__box__single game">
-                        <p>video juegos</p>
+                        <p>video games</p>
                     </div>
 
                     <div class="hobbie__box__single music">
-                        <p>escuchar musica</p>
+                        <p>music</p>
                     </div>
 
                     <div class="hobbie__box__single sports">
@@ -163,38 +162,40 @@
         <!-- Proyect section -->
         <section class="proyect" id="proyect">
             <div class="proyect__title">
-                <h2 class="title">proyectos</h2>
+                <h2 class="title title__dark">proyectos</h2>
             </div>
             <div class="container">
 
                 <div class="card__proyect card__default">
 
                     <div class="card__image">
-                        <img src="assets/img/slider1.jpg" alt="">
+                        <img src="assets/img/aluraflix.png" alt="">
                     </div>
 
                     <div class="card__description">
 
                         <div class="card__head card__head__left">
 
-                            <h3>titulo</h3>
+                            <h3>aluraflix</h3>
 
                             <div class="card__tecnology">
                                 <i class='bx bxl-html5'></i>
                                 <i class='bx bxl-css3'></i>
                                 <i class='bx bxl-javascript'></i>
+                                <i class='bx bxl-react'></i>
                             </div>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, doloribus qui molestiae
-                            sunt aliquid tenetur sapiente ipsam reprehenderit illo iure inventore, quasi atque laborum?
-                            Earum alias recusandae unde eos accusamus accusantium iure ratione. Est totam ipsam quas
-                            repudiandae omnis esse repellat, corrupti porro eius atque, iusto quibusdam deleniti vel
-                            exercitationem.</p>
+                        <p>
+                            AluraFlix is a web platform developed as part of a challenge from the Oracle Next
+                            Education program and Alura LATAM. Its goal is to offer a video catalog similar to
+                            Netflix, allowing users to explore and manage multimedia content in a simple and
+                            attractive way.
+                        </p>
                         <div class="card__button card__left">
-                            <a class="button__git" href="#">
+                            <a class="button__git" href="https://github.com/Ajvilla99/aluraflix">
                                 <i class='bx bxl-github'></i>
                             </a>
-                            <a class="button__demo" href="#">
+                            <a class="button__demo" href="https://aluraflix-ajvilla99.vercel.app/">
                                 <i class='bx bx-link-external'></i>
                             </a>
                         </div>
@@ -203,84 +204,24 @@
 
                 <div class="card__proyect card__reverse">
                     <div class="card__image">
-                        <img id="#" src="assets/img/proyect1.png" alt="">
+                        <img id="#" src="assets/img/blackjack.png" alt="">
                     </div>
                     <div class="card__description t-right">
                         <div class="card__head card__head__right">
-                            <h3>titulo</h3>
+                            <h3>blackjack</h3>
                             <div class="card__tecnology">
                                 <i class='bx bxl-html5'></i>
                                 <i class='bx bxl-css3'></i>
                                 <i class='bx bxl-javascript'></i>
                             </div>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, doloribus qui molestiae
-                            sunt aliquid tenetur sapiente ipsam reprehenderit illo iure inventore, quasi atque laborum?
-                            Earum alias recusandae unde eos accusamus accusantium iure ratione. Est totam ipsam quas
-                            repudiandae omnis esse repellat, corrupti porro eius atque, iusto quibusdam deleniti vel
-                            exercitationem.</p>
+                        <p>Classic Blackjack game built with Vite and JavaScript. Features a clean UI, full game logic,
+                            and a responsive design ready to play in the browser.</p>
                         <div class="card__button card__right">
-                            <a class="button__git" href="#">
+                            <a class="button__git" href="https://github.com/Ajvilla99/blackjack">
                                 <i class='bx bxl-github'></i>
                             </a>
-                            <a class="button__demo" href="#">
-                                <i class='bx bx-link-external'></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__proyect card__default">
-                    <div class="card__image">
-                        <img src="assets/img/slider1.jpg" alt="">
-                    </div>
-                    <div class="card__description">
-                        <div class="card__head card__head__left">
-                            <h3>titulo</h3>
-                            <div class="card__tecnology">
-                                <i class='bx bxl-html5'></i>
-                                <i class='bx bxl-css3'></i>
-                                <i class='bx bxl-javascript'></i>
-                            </div>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, doloribus qui molestiae
-                            sunt aliquid tenetur sapiente ipsam reprehenderit illo iure inventore, quasi atque laborum?
-                            Earum alias recusandae unde eos accusamus accusantium iure ratione. Est totam ipsam quas
-                            repudiandae omnis esse repellat, corrupti porro eius atque, iusto quibusdam deleniti vel
-                            exercitationem.</p>
-                        <div class="card__button card__left">
-                            <a class="button__git" href="#">
-                                <i class='bx bxl-github'></i>
-                            </a>
-                            <a class="button__demo" href="#">
-                                <i class='bx bx-link-external'></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card__proyect card__reverse">
-                    <div class="card__image">
-                        <img src="assets/img/proyect1.png" alt="">
-                    </div>
-                    <div class="card__description t-right">
-                        <div class="card__head card__head__right">
-                            <h3>titulo</h3>
-                            <div class="card__tecnology">
-                                <i class='bx bxl-html5'></i>
-                                <i class='bx bxl-css3'></i>
-                                <i class='bx bxl-javascript'></i>
-                            </div>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda, doloribus qui molestiae
-                            sunt aliquid tenetur sapiente ipsam reprehenderit illo iure inventore, quasi atque laborum?
-                            Earum alias recusandae unde eos accusamus accusantium iure ratione. Est totam ipsam quas
-                            repudiandae omnis esse repellat, corrupti porro eius atque, iusto quibusdam deleniti vel
-                            exercitationem.</p>
-                        <div class="card__button card__right">
-                            <a class="button__git" href="#">
-                                <i class='bx bxl-github'></i>
-                            </a>
-                            <a class="button__demo" href="#">
+                            <a class="button__demo" href="https://ajvilla99.github.io/blackjack/">
                                 <i class='bx bx-link-external'></i>
                             </a>
                         </div>
@@ -290,22 +231,23 @@
             </div>
         </section>
 
+        <!-- contacte me -->
         <section class="contact" id="contact">
             <form action="#" class="form__contact">
                 <div class="contact__title">
-                    <h2 class="title">contactame</h2>
+                    <h2 class="title">contact me</h2>
                 </div>
                 <div class="container__form-column">
                     <div class="form__container-row">
                         <input type="text" id="name" class="form__datos form__name" name="name">
-                        <label class="form__label-name form__label" for="name">Nombre</label>
+                        <label class="form__label-name form__label" for="name">Name</label>
 
                         <input type="email" id="email" class="form__datos form__email" name="email">
                         <label class="form__label-email form__label" for="email">Email</label>
 
                         <textarea id="message" name="message" class="form__datos form__tarea" cols="20"
                             rows="7"></textarea>
-                        <label class="form__label-mensaje form__label" for="message">Mensaje</label>
+                        <label class="form__label-mensaje form__label" for="message">Message</label>
                     </div>
                     <div class="form__social">
                         <a href="mailto:ajvilla1999@gmail.com"><i class='bx bxl-gmail'></i></a>
@@ -314,7 +256,7 @@
                     </div>
                 </div>
                 <div class="form__submit">
-                    <input type="submit" class="" value="Enviar mensaje">
+                    <input type="submit" class="" value="Send Message">
                 </div>
             </form>
 
@@ -322,9 +264,9 @@
     </main>
 
     <footer class="footer" id="footer">
-        <p>Copyright &copy; - 2023 by Abrahan Villa | All Rights Reserved. </p>
+        <p>Copyright &copy; - 2025 by Abrahan Villa | All Rights Reserved. </p>
         <div class="scroll__top btn">
-            <a href="#inicio"><i class='bx bx-up-arrow-alt'></i></a>
+            <a href="#index"><i class='bx bx-up-arrow-alt'></i></a>
         </div>
     </footer>
 
